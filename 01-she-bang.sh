@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env python
 
 
 # SH  - BOURNE SHELL -> HPUX/ AT&T -> Simple in Syntaxes

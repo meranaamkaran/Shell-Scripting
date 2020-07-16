@@ -19,5 +19,5 @@
 #        ENSURES REMAINING CODE EXCECUTES USING THAT INTERPRETOR
 
 
-printf "echo"
+print "echo"
 

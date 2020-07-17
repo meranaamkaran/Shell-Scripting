@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-
+<<NOTE
 # SH  - BOURNE SHELL -> HPUX/ AT&T -> Simple in Syntaxes
 # KSH - KORN SHELL   -> IBM        -> Login Scripts
 # CSH - C SHELL      -> SUNOS      -> Index Variables
@@ -16,7 +16,17 @@
 # SHE-BANG ->> #!
 #        DENOTES WHICH SCRIPT IT IS
 #        ENSURES REMAINING CODE EXCECUTES USING THAT INTERPRETOR
+NOTE
+
+>>NOTES
+TYPES OF PRINT COMMANDS
+ECHO
+PRINTF
+EXAMPLES!!
+NOTES
+
+PRINTF "KARAN
+ECHO "HELLO WORLD"
 
 
-print "echo"
 

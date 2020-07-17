@@ -25,7 +25,7 @@ PRINTF
 EXAMPLES!!
 NOTES
 
-printf "KARAN
+printf "KARAN"
 echo "HELLO WORLD"
 
 

@@ -26,7 +26,7 @@ EXAMPLES!!
 NOTES
 
 printf "KARAN"
-echo "HELLO WORLD"
+echo HELLO WORLD
 
 
 

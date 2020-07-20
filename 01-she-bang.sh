@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env bash
 
 # SH  - BOURNE SHELL -> HPUX/ AT&T -> Simple in Syntaxes
 # KSH - KORN SHELL   -> IBM        -> Login Scripts
@@ -16,15 +16,6 @@
 #        DENOTES WHICH SCRIPT IT IS
 #        ENSURES REMAINING CODE EXCECUTES USING THAT INTERPRETOR
 
->>NOTES
-TYPES OF PRINT COMMANDS
-ECHO
-PRINTF
-EXAMPLES!!
-NOTES
-
-printf "KARAN"
-echo HELLO WORLD
 
 
 

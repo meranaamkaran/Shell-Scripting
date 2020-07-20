@@ -7,5 +7,5 @@ PRINTF
 EXAMPLES!!
 NOTE
 
-printf "KARAN" \n
+printf "KARAN" ,\n
 echo HELLO WORLD

@@ -9,6 +9,8 @@ NOTE
 
 echo -e "KARAN \nHello World"
 
+#  alias SOMEDENOTION="COMMAND"
+
 #COLOUR CODES
 #                 FOREGROUND     BACKGROUND
 #RED                  31            41

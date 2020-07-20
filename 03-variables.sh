@@ -19,9 +19,9 @@ e=7.7777
 
 echo value of a=$a
 
-N=KARAN
-S=PHOTOGRAPHY
+Name=KARAN
+Services=PHOTOGRAPHY
 
-echo -e "WELCOME TO $N PHOTOGRAPHY"
-echo -e "WE PROVIDE $S FOR ALL TYPES OF EVENTS"
+echo -e "WELCOME TO $Name PHOTOGRAPHY"
+echo -e "WE PROVIDE $Services FOR ALL TYPES OF EVENTS"
 

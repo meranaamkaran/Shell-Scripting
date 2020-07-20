@@ -14,3 +14,5 @@ d=true | false
 
 
 ##Acess a variable = $var_name | ${var_name}
+
+echo value of a=$a

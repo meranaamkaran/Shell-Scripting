@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
->>NOTES
+>>NOTE
 TYPES OF PRINT COMMANDS
 ECHO
 PRINTF
 EXAMPLES!!
-NOTES
+NOTE
 
-printf "KARAN"
+printf "KARAN" \n
 echo HELLO WORLD

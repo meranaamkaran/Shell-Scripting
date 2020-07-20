@@ -7,5 +7,4 @@ PRINTF
 EXAMPLES!!
 NOTE
 
-printf "KARAN"
-echo \n HELLO WORLD
+echo -e "KARAN,\n Hello World"

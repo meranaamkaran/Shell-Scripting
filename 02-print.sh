@@ -19,4 +19,4 @@ echo -e "KARAN \nHello World"
 #CYAN                 36
 #RESET                0
 
-echo -e "\e[31mHELLO WORLD IN RED\e[0m \n\e[32mHELLO WORLD IN GREEN\e[0m"
+echo -e "\e[31mHELLO WORLD IN RED\e[0m \n\e[32mHELLO WORLD IN GREEN\e[0m \n\e[33mHELLO WORLD IN YELLOW\e[0m \n\e[34mHELLO WORLD IN BLUE\e[0m \n\e[35mHELLO WORLD IN MAGENTA\e[0m \n\e[36mHELLO WORLD IN CYAN\e[0m \nHELLO WORLD IN RED"

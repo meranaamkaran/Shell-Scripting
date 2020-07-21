@@ -37,7 +37,11 @@ echo -e "Goodmorning today date is $DATE"
 # ARTHEMATIC SUBSTITUTION
 
 DATE1=$(date +%F)
-echo -e "Goodmorning today date is $(DATE1)"
+echo -e "Goodmorning today date is ${DATE1}"
 
 ARTH=$((2+5/7%6-10+170))
 echo ARTH= ${ARTH}
+
+#variable should contain only a-z, A-Z, 0-9, _(underscore).
+#No special values are allowed.
+#variable should not start with number.

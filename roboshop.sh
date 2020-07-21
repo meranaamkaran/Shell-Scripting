@@ -10,5 +10,5 @@ N="\e[0m"
 
 
 echo -e "[${B}INF${N}] MESSAGE"
-echo -e "[${B}WAR${N}] WARNING"
-echo -e "[${B}ERR${N}] ERROR"
+echo -e "[${Y}WAR${N}] WARNING"
+echo -e "[${R}ERR${N}] ERROR"

@@ -15,7 +15,7 @@ N="\e[0m"
 
 print()
 {
-  echo -e "[${B}INF${N}] $1"
+  echo -e "[${B}INFORMATION${N}] $1"
 }
 
 print " SETUP MONGODB "

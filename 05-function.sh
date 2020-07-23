@@ -41,6 +41,7 @@ f()
 b=200
 f
 a=400
+
 echo i am a function, i can overwrite variables of main program, a = ${a}
 
 f 123 abc

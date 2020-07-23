@@ -38,7 +38,6 @@ f()
   echo i am a function, i will still use script name in my function
   echo script name = $0
 }
-
 b=200
 f
 a=400

@@ -20,9 +20,52 @@ print()
 
 COMPONENTS="MONGODB MYSQL REDIS RABBITMQ FRONTEND CART CATALOGUE USER PAYMENT SHIPPINGS RATTINGS DISPATCH"
 
+COMPONENT=$1
+
+case $1{component} in
+
+MONGODB)
+        print "SETUP $component"
+        ;;
+MYSQL)
+        print "SETUP $component"
+        ;;
+REDIS)
+        print "SETUP $component"
+        ;;
+RABBITMQ)
+        print "SETUP $component"
+        ;;
+FRONTEND)
+        print "SETUP $component"
+        ;;
+CART)
+        print "SETUP $component"
+        ;;
+CATALOGUE)
+        print "SETUP $component"
+        ;;
+USER)
+        print "SETUP $component"
+        ;;
+PAYMENT)
+        print "SETUP $component"
+        ;;
+SHIPPINGS)
+        print "SETUP $component"
+        ;;
+RATTINGS)
+        print "SETUP $component"
+        ;;
+DISPATCH)
+        print "SETUP $component"
+        ;;
+
+esac
+
 for component in ${COMPONENTS} ; do
   print "SETUP $component"
-  done
+done
 
 #print " SETUP MONGODB "
 #print " MYSQL "

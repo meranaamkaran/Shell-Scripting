@@ -7,7 +7,7 @@
 
 #CASE COMMAND
 
-<SYNTAX
+<<SYNTAX
 case variable in
     pattern1)
         commands

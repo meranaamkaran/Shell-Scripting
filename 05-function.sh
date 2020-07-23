@@ -29,7 +29,7 @@ f()
   echo iam a function
   a=100
   echo a = ${a}
-  echo i am a function, i can call variables from main program, b = {b}
+  echo i am a function, i can call variables from main program, b = ${b}
 }
 b=200
 f

@@ -63,9 +63,9 @@ DISPATCH)
 
 esac
 
-for component in ${COMPONENTS} ; do
-  print "SETUP $component"
-done
+#for component in ${COMPONENTS} ; do
+#  print "SETUP $component"
+#done
 
 #print " SETUP MONGODB "
 #print " MYSQL "

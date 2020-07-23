@@ -22,47 +22,10 @@ COMPONENTS="MONGODB MYSQL REDIS RABBITMQ FRONTEND CART CATALOGUE USER PAYMENT SH
 
 COMPONENT=$1
 
-case $1{component} in
-
-MONGODB)
-        print "SETUP $component"
-        ;;
-MYSQL)
-        print "SETUP $component"
-        ;;
-REDIS)
-        print "SETUP $component"
-        ;;
-RABBITMQ)
-        print "SETUP $component"
-        ;;
-FRONTEND)
-        print "SETUP $component"
-        ;;
-CART)
-        print "SETUP $component"
-        ;;
-CATALOGUE)
-        print "SETUP $component"
-        ;;
-USER)
-        print "SETUP $component"
-        ;;
-PAYMENT)
-        print "SETUP $component"
-        ;;
-SHIPPINGS)
-        print "SETUP $component"
-        ;;
-RATTINGS)
-        print "SETUP $component"
-        ;;
-DISPATCH)
-        print "SETUP $component"
-        ;;
-
+case ${component} in
+MONGODB|MYSQL|REDIS|RABBITMQ|FRONTEND|CART|CATALOGUE|USER|PAYMENT|SHIPPINGS|RATTINGS|DISPATCH)
+print "setup $component"
 esac
-
 #for component in ${COMPONENTS} ; do
 #  print "SETUP $component"
 #done

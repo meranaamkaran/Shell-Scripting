@@ -18,15 +18,21 @@ print()
   echo -e "[${B}INF${N}] $1"
 }
 
-print " SETUP MONGODB "
-print " MYSQL "
-print " REDIS "
-print " RABBITMQ "
-print " FRONTEND "
-print " CART "
-print " CATALOGUE "
-print " USER "
-print " PAYMENT "
-print " SHIPPING "
-print " RATTINGS "
-print " DISPATCH "
+COMPONENTS="MONGODB MYSQL REDIS RABBITMQ FRONTEND CART CATALOGUE USER PAYMENT SHIPPINGS RATTINGS DISPATCH"
+
+for component in ${COMPONENTS} ; do
+  print "SETUP $COMPONENTS"
+  done
+
+#print " SETUP MONGODB "
+#print " MYSQL "
+#print " REDIS "
+#print " RABBITMQ "
+#print " FRONTEND "
+#print " CART "
+#print " CATALOGUE "
+#print " USER "
+#print " PAYMENT "
+#print " SHIPPING "
+#print " RATTINGS "
+#print " DISPATCH "

@@ -18,13 +18,13 @@ case variable in
 esac
 SYNTAX
 
-fruit_name=banana
+fruit_name=bananna
 
 case ${fruit_name} in
        apple)
          echo fruit name is apple
          ;;
        bannana)
-         echo fruit name is banana
+         echo fruit name is bananna
          ;;
 esac

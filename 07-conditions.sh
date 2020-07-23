@@ -24,7 +24,7 @@ case ${fruit_name} in
        apple)
          echo fruit name is apple
          ;;
-       bannana)
+       bananna)
          echo fruit name is bananna
          ;;
 esac

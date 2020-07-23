@@ -24,7 +24,8 @@ component=$1
 
 case ${component} in
 MONGODB|MYSQL|REDIS|RABBITMQ|FRONTEND|CART|CATALOGUE|USER|PAYMENT|SHIPPINGS|RATTINGS|DISPATCH)
-print "setup ${component}"
+print "SETUP ${component}"
+        ;;
 esac
 
 #for component in ${COMPONENTS} ; do

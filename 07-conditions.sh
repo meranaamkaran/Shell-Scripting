@@ -20,7 +20,7 @@ SYNTAX
 
 fruit_name=apple
 
-case $fruit_name in
+case ${fruit_name} in
        apple)
          echo fruit name is apple
          ;;

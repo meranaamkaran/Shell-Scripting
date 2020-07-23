@@ -33,6 +33,7 @@ f()
   b=300
   echo i am a function, i can overwrite variables of main program, b = ${b}
 }
+
 b=200
 f
 

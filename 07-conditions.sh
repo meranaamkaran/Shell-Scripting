@@ -18,7 +18,7 @@ case variable in
 esac
 SYNTAX
 
-fruit_name=apple
+fruit_name=banana
 
 case ${fruit_name} in
        apple)
